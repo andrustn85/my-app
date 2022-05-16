@@ -1,13 +1,109 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 8px;
+}
+
+.header  {
+  width: 25rem;
+    align-items: center;
+    background-color: #020207;
+    height: auto;
+}
+
+
+img {
+  max-width:100%;
+  max-height:100%;
+  border: 4px solid black;
+}
+
+h1, h2, h3 {
+  color: white;
+  align-items: center;
+  Font-family: Inter;
+ Font-style: Bold;
+Font-size: 20px;
+display: flex;
+justify-content: center;
+border: 2px solid white;
+border-radius: 20px;
+padding: 5px;
+font-family: cursive;
+}
+
+.link {
+  text-decoration:none;
+  display: flex;
+justify-content: center;
+align-items: center;
+color: aquamarine;
+border: 2px solid white;
+border-radius: 20px;
+padding: 5px;
+font-size: 20px;
+font-family: cursive;
+}
+
+p {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.foot {
+  width: 25rem;
+    align-items: center;
+    background-color: #161619;
+    height: auto;
+    padding: 1em;
+}
+
+.intereses {
+  width: 25rem;
+    align-items: center;
+    background-color: #1A1B21;
+    height: auto;
+    padding: 1em;
+}
+
+.about {
+  width: 25rem;
+    align-items: center;
+    background-color: #1A1B21;
+    height: auto;
+    padding: 1em;
+}
+
+i {
+  color: gray;
+  font-size: 18px;
+}
+
+.email {
+ padding: 15px;
+ width: 8rem;
+ height: 4rem;
+ background: #FFFFFF;
+ box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+ border-radius: 6px;
+ display: block;
+ align-items: center;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: auto;
+}
+
+
+p {
+  font-size: 1.5em;
 }
